@@ -1,0 +1,116 @@
+.InputFilterDivContainer {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputFilterInput {
+  width: auto;
+  margin-left: 20px;
+}
+.headerRowDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerIcon {
+  color: dimgray;
+  text-shadow: 1px 1px 10px #e0e0e0;
+}
+.headerTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3436;
+}
+.headerSubtitle {
+  font-size: 1.2rem;
+  color: dimgray;
+}
+.headerDiv {
+  padding: 0 5px;
+}
+.headerDivContainer {
+}
+.summaryDivContainer {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.summaryDiv {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.2);
+  background-color: #ececec;
+  border-radius: 10px;
+  min-width: 150px;
+  border: solid 1px #cdcdcd;
+  border-width: 0 0 0 15px;
+}
+.lancamentosDivLancamentosContainer {
+  display: flex;
+  padding: 0 10px;
+  text-align: right;
+  align-items: top;
+}
+.lancamentoDivPill {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fdcb6e;
+  border-radius: 10px;
+  height: 20px;
+  align-items: center;
+  font-size: 0.7rem;
+  color: #2d3436;
+  font-weight: bold;
+}
+.lancamentoText {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-right: 20px;
+}
+.summaryDivColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.summaryLabel {
+  font-weight: bold;
+}
+.summaryGreen {
+  font-weight: bold;
+  color: #16a085;
+}
+.summaryRed {
+  font-weight: bold;
+  color: #e74c3c;
+}
+.summaryBlue {
+  font-weight: bold;
+  color: #0984e3;
+}
+.monthYearComboRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.monthYearComboItemDiv {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  min-width: 100px;
+}

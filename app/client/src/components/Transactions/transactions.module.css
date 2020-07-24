@@ -1,0 +1,93 @@
+.transactionDivGreen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #9aecdb, #218c74);
+  border: solid 1px #218c74;
+  border-width: 0 0 0 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.transactionDivRed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #ffb8b8, #ff4d4d);
+  border: solid 1px #ff4d4d;
+  border-width: 0 0 0 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.transactionDivYellow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f6e58d;
+  background-image: linear-gradient(to right, #f6e58d, #ffb142);
+  border: solid 1px #ffb142;
+  border-width: 0 0 0 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.descriptionTextDay {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+.descriptionTextCategory {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.descriptionTextDescription {
+  font-size: 0.8rem;
+}
+.descriptionRowDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.descriptionColumnDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.actionsRowDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.actionsRowButtonDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+.actionsButton {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.actionsButton:hover {
+  color: #fff;
+}
+.actionTextValue {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 30px whitesmoke;
+}
